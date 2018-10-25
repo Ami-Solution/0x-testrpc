@@ -1,4 +1,4 @@
-# setup a testrpc with 0x libraries
+# Use it to setup a testrpc with 0x libraries
 FROM node:8.8
 RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
 RUN npm install -g ganache-cli
